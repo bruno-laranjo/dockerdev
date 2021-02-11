@@ -29,6 +29,8 @@ RUN apt-get update \
       rsync \
       tar \
       python \
+      git \
+      graphviz \
   && apt-get clean
 
 RUN ( \
